@@ -1,0 +1,191 @@
+
+.box-right-content {
+    margin-left: 400px;
+}
+
+.banner-room-type{
+    margin: 158px auto 0;
+    position: relative;
+}
+.banner-room-type img{
+    width: 100%;
+    filter: brightness(70%);
+    height: 600px;
+}
+.banner-room-type p{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}
+
+.room{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+    margin: 0 64px;
+    gap: 32px;
+}
+.rct1{
+    padding-bottom: 60px;
+}
+
+
+.content .room .box-item-room img {
+    width: 100%;
+    height: 400px;
+}
+
+.content .room .box-item-room button {
+    background-color: #F4694C;
+    border: 1px solid #F4694C;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.content .room .box-item-room button:hover{
+    background-color: white;
+    color: #F4694C;
+}
+
+.content .room .box-item-room img:hover {
+    filter: brightness(70%);
+    transition: 0.5s;
+}
+
+
+.content .room .box-item-room .main-desc{
+    margin: 16px 0;
+}
+
+
+.box-item-room .top-desc, .buttom-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+}
+.box-item-room .buttom-desc a {
+    text-decoration: none;
+    color: #F4694C;
+}
+
+.box-item-room .buttom-desc a:hover {
+    color: rgb(40, 117, 40);
+}
+
+.rct1 img{
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.rct1 h3{
+    text-align: center;
+    padding: 20px 0;
+}
+.list li{
+    list-style-type: disc;
+    padding: 6px 0;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+.price p{
+    margin: 0;
+    font-size: 25px;
+    color: #F4694C;
+}
+.price button{
+    background-color: #F4694C;
+    border: 1px solid #F4694C;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.price button:hover{
+    background-color: white;
+    color: #F4694C;
+}
+
+.info-feedback .top-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-feedback .top-feedback h3 {
+    color: #F4694C;
+}
+
+.info-feedback .top-feedback p {
+    color: blue;
+}
+
+.info-feedback .desc {
+    margin: 8px 16px;
+    font-weight: 600;
+}
+
+
+  .imgStyle {
+    width: 100px;
+    height: 100px;
+    border: 3px solid grey;
+  }
+
+.hotel-rules {
+    border-top: 2px solid #F4694C;
+    border-bottom: 2px solid #F4694C;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+.hotel-rules ul li {
+list-style: none;
+margin: 4px 0;
+}
+.item-room-same{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+  
+.room-same .item-room-same .box-item-room img {
+    width: 100%;
+    height: 400px;
+}
+
+.room-same .item-room-same .box-item-room button {
+    background-color: #F4694C;
+    border: 1px solid #F4694C;
+    color: white;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.room-same .item-room-same .box-item-room button:hover{
+    background-color: white;
+    color: #F4694C;
+}
+
+.room-same .item-room-same .box-item-room img:hover {
+    filter: brightness(70%);
+    transition: 0.5s;
+}
+
+.room-same .item-room-same .box-item-room .main-desc{
+    margin: 16px 0;
+}

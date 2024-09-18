@@ -1,0 +1,212 @@
+
+.account a {
+    text-decoration: none;
+    color: #F4694C;
+}
+
+.account a:hover {
+    color: rgb(40, 117, 40);
+}
+
+.account .info-user {
+    background-color: #ccc;
+    border-radius: 32px;
+    padding: 12px;
+}
+
+.account .info-user i {
+    font-size: 28px;
+}
+
+.form-register , .form-login, .form-forget{
+    width: 350px;
+    margin: 160px auto 16px;
+}
+
+.form-register input {
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+    padding: 16px 8px;
+    margin: 16px 0;
+}
+
+
+.form-login input[type="text"] {
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+    padding: 16px 8px;
+    margin: 16px 0;
+}
+
+.form-login input[type="submit"] {
+    background-color: #F4694C;
+}
+
+.form-login input[type="submit"]:hover{
+    background-color: rgb(40, 117, 40);
+}
+
+.form-forget input {
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+    padding: 16px 8px;
+    margin: 16px 0;
+}
+
+
+.form-forget input[type="submit"] {
+    background-color: #F4694C;
+}
+
+.form-forget input[type="submit"]:hover{
+    background-color: rgb(40, 117, 40);
+}
+
+hr{
+    height: 3px;
+    background-color: #F4694C;
+    border: 1px solid #F4694C;
+}
+
+.login{
+    margin: 16px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #F4694C;
+    border: #F4694C;
+    border-radius: 0.5rem;  
+    color: #fff;
+    font-size: 19px;
+}
+
+.login:hover {
+    background-color: rgb(40, 117, 40);
+}
+.register{
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 19px;
+}
+
+.register a {
+    text-decoration: none;
+    color: rgb(40, 117, 40);
+}
+
+.register a:hover {
+    color: #F4694C;
+}
+
+.forget{
+    text-align: center;
+}
+
+.forget a {
+    text-decoration: none;
+    color: #F4694C;
+}
+
+.forget a:hover {
+    color: rgb(40, 117, 40);
+}
+
+.logout i {
+    color: black;
+    margin-left: 8px;
+}
+
+.logout i:hover {
+    color: rgb(40, 117, 40);
+}
+
+.send {
+    margin: 16px 0;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #F4694C;
+    border: #F4694C;
+    border-radius: 0.5rem;  
+    color: #fff;
+    font-size: 19px;
+}
+.send:hover {
+    background-color: rgb(40, 117, 40);
+}
+
+.box-user{
+    margin:200px 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-user .item-user {
+    background-color: #faf9f5;
+    padding: 32px;
+    line-height: 2;
+}
+
+.box-user .item-user a {
+    text-decoration: none;
+    color: rgb(40, 117, 40);
+    font-weight: 600;
+}
+
+.box-user .item-user a:hover {
+    color: #F4694C;
+}
+
+.box-user table{
+    border-collapse: collapse;
+    width: 1000px;
+    line-height: 2;
+}
+
+.box-user table th {
+    padding: 16px;
+}
+
+.box-user table td p {
+    text-align: left;
+    padding-left: 100px;
+}
+.box-user span {
+    color: #F4694C;
+}
+
+.form-change-password{
+    margin: 160px auto 16px;
+    width: 350px;
+}
+
+.form-change-password input {
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+    padding: 16px 8px;
+    margin: 16px 0;
+}
+
+
+.form-change-password input[type="submit"] {
+    background-color: #F4694C;
+    color: #fff;
+    width: 100px;
+}
+
+.form-change-password input[type="submit"]:hover{
+    background-color: rgb(40, 117, 40);
+}
+
+.form-change-password input[type="reset"] {
+    width: 100px;
+    padding: 16px 8px;
+    border: none;
+
+}
